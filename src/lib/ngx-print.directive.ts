@@ -127,7 +127,7 @@ public returnStyleValues() {
           ${styles}
           ${links}
         </head>
-        <body onload="window.print(); setTimeout(()=>{ window.close(); }, 0)">
+        <body onload="window.print(); setTimeout(function() { window.close(); }, 0)">
           ${printContents}
         </body>
       </html>`);
